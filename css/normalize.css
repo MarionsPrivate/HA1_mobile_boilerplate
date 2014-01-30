@@ -31,6 +31,7 @@ audio,
 canvas,
 video {
     display: inline-block;
+    
 }
 
 /**
@@ -72,6 +73,7 @@ html {
  */
 
 body {
+	background-color: #b7d1c4;
     margin: 0;
 }
 
@@ -108,8 +110,16 @@ a:hover {
 h1 {
     font-size: 2em;
     margin: 0.67em 0;
+    color: #FF7F00;
+	text-align:center;
 }
 
+h2 {
+    font-size: 1.5em;
+    margin: 0.67em 0;
+    color:#FF7F66;
+	text-align:center;
+}
 /**
  * Address styling not present in IE 8/9, Safari 5, and Chrome.
  */
